@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>master Card</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+
+        .logo img{
+            width: 50px;
+            margin-right: 10px;
+        }
+
+        header, .chip{
+            width: 55px;
+        }
+
+
+        body{
+            min-height: 100vh;
+            background-color: aquamarine;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }   
+
+        .container{
+            position: relative;
+            max-width: 350px;
+            width: 100%;
+
+            background-color: brown;
+            /* background-image: url(backk.jpeg); */
+            padding: 20px;
+            border-radius: 20px;
+
+            
+        
+
+        }
+
+        header, .logo{
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+        }
+
+
+        .container .card-details{
+            margin-top: 25px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+
+        header, h5{
+            color: antiquewhite;
+        }
+
+        .chip{
+             position: relative;
+             left: 150px;
+            
+        }
+
+     
+
+
+
+        
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">
+                <img src="logoo.jpeg" alt="logo">
+                <h5>Master Card</h5>
+                
+            </span>
+            <img src="chipp.jpeg" class="chip" alt="chip">
+            
+        </header>
+
+        <div class="card-details">
+            <div class="name-number">
+                <h6>Card Name</h6>
+                <h5 class="number">8765 3456 9877 7653 </h5>
+                <h5 class="name">Arkit Malik</h5>
+            </div>
+
+            <div class="card-date">
+                <h6>Valid Thru</h6>
+                <h5 class="number">05/30</h5>
+
+            </div>
+        </div>
+
+        
+
+    </div>
+</body>
+</html>
